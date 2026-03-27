@@ -1,0 +1,4 @@
+I handled GitHub API rate limits by using a personal access token in the Authorization header.
+This increased the rate limit from 60 requests/hour
+I used controlled execution (manual trigger) to avoid unnecessary API calls.
+This ensures reliable workflow execution without hitting rate limits.
